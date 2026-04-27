@@ -117,16 +117,4 @@ What's covered today:
 - `AllocatePanel` - happy path, missing-field block, server-side 422
   surfaced as a field error (component, with mocked API).
 
-## Next steps (deferred to keep within scope)
 
-- More component coverage: `FreePanel`, `CancelPanel`, `AllocationsTable`
-  loading/empty/error rendering, plus the `useAllocations` hook itself.
-- Bonus historical "as-of time" query UI by channel + timestamp.
-- Toast system to replace inline banners when several actions succeed
-  in quick succession.
-- Optimistic UI for free/cancel with a rollback on server error.
-- Polling or websocket-driven auto-refresh for the active table.
-- Accessibility audit (focus traps, color contrast in dark mode, screen
-  reader pass on table semantics).
-- Retry/backoff on transient 5xx in `client.js`.
-- E2E tests with Playwright against a running backend.
