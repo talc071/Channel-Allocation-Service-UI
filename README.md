@@ -226,6 +226,7 @@ src/
   test/setup.js          vitest setup
 ```
 
+<<<<<<< HEAD
 ---
 
 ## What I would do next with more time
@@ -247,3 +248,6 @@ src/
 - Optimistic UI for free/cancel with a rollback on server error.
 - Accessibility audit (focus traps, color contrast in dark mode, screen-reader pass on table semantics).
 - E2E tests with Playwright against a running backend.
+=======
+
+>>>>>>> 66bf1e398ad3f7ff0f16adf5d95a0424f06d1386
