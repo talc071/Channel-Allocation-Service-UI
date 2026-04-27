@@ -22,7 +22,7 @@ npm install
 npm run dev
 ```
 
-The dev server runs at <http://localhost:5174>.
+The dev server runs at <http://localhost:5173>.
 
 ### Pointing the UI at the backend
 
